@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+	<TableLayout
+	    android:id="@+id/inventoryTableLayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentEnd="true" >
+		
+	    <TableRow 
+	        android:id="@+id/inventoryRow"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent">
+	        
+			<include 
+			    android:id="@+id/slot0"
+			    layout="@layout/slot"/>
+			
+			<include 
+			    android:id="@+id/slot1"
+			    layout="@layout/slot"/>
+			
+			<include 
+			    android:id="@+id/slot2"
+			    layout="@layout/slot"/>
+			
+			<include 
+			    android:id="@+id/slot3"
+			    layout="@layout/slot"/>
+			
+			<include 
+			    android:id="@+id/slot4"
+			    layout="@layout/slot"/>
+			
+	    </TableRow>
+	</TableLayout>
+
+    <TextView
+        android:id="@+id/moneyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffcc99"
+        android:text="100$"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/healthTextView"
+        android:layout_below="@id/moneyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff1a1a"
+        android:textColor="#1a1aff"
+        android:text="100"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/shopImageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClickedShop"
+        android:src="@drawable/ui_cart" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shopImageView"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/black"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.shlomi.golemland.Initialization.Activities.MainMenuActivity" 
+    project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Activities/MainMenuActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="256" width="284" x="653" y="2254"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.shlomi.golemland.Initialization.SoundSystem" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/SoundSystem.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="476" width="289" x="506" y="2790"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.shlomi.golemland.game.GameContainers.Game" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/GameContainers/Game.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="496" width="329" x="1051" y="826"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.shlomi.golemland.Initialization.Settings.TickSettings" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Settings.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="176" width="387" x="851" y="3306"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="com.shlomi.golemland.Initialization.Activities.GameOverScreen" 
+    project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Activities/GameOverScreen.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="136" width="284" x="329" y="2254"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.shlomi.golemland.game.Core.Entitys.Tile" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Entitys/Tile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="496" width="269" x="1236" y="2254"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.shlomi.golemland.game.Core.Mobs.Player.Effect" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Mobs/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="261" x="1900" y="2254"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.shlomi.golemland.game.Core.Mobs.Monster" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Mobs/Monster.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="261" x="1566" y="1778"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="com.shlomi.golemland.Initialization.Settings.SharedPreferncesSettings" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Settings.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="378" x="1278" y="3306"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="com.shlomi.golemland.game.Core.Mobs.MonsterBehaviorSystem" 
+    project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Mobs/MonsterBehaviorSystem.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="136" width="313" x="1566" y="1362"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.shlomi.golemland.Initialization.LevelButtonsAdapter" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/LevelButtonsAdapter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="236" width="287" x="26" y="-126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="com.shlomi.golemland.Initialization.Settings.ShopSettings" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Settings.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="216" width="225" x="241" y="3306"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="com.shlomi.golemland.game.Core.Entitys.TNT" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Entitys/TNT.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="216" width="318" x="1082" y="1778"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.shlomi.golemland.game.Core.Entitys.Cake" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Entitys/Cake.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="216" width="269" x="1577" y="2790"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="15" language="java" name="com.shlomi.golemland.game.Core.Constants.IDirection" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Constants/IDirection.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="176" width="291" x="2201" y="2254"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="16" language="java" name="com.shlomi.golemland.Initialization.Settings.MobSettings" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Settings.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="225" x="1696" y="3306"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="com.shlomi.golemland.game.Core.Constants.GameState" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Constants/GameState.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="291" x="353" y="-126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="com.shlomi.golemland.game.GameContainers.GameActivity" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/GameContainers/GameActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="616" width="299" x="1008" y="-126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.shlomi.golemland.game.Core.Inventory.Slot" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Inventory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="256" width="242" x="26" y="1778"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.shlomi.golemland.Initialization.Activities.LevelsMenuAcitivty" 
+    project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Activities/LevelsMenuAcitivty.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="256" width="284" x="684" y="-126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="21" language="java" name="com.shlomi.golemland.game.Core.Constants.Tiles" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Constants/Tiles.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="376" width="291" x="1566" y="2254"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="22" language="java" name="com.shlomi.golemland.game.Core.Map" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Map.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="376" width="370" x="1051" y="1362"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.shlomi.golemland.game.Core.Mobs.Player" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Mobs/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="436" width="261" x="1900" y="1778"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="24" language="java" name="com.shlomi.golemland.Initialization.Settings.PlayerSettings" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Settings.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="266" x="1961" y="3306"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="25" language="java" name="com.shlomi.golemland.game.Core.Mobs.Mob" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Mobs/Mob.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="396" width="290" x="1526" y="826"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.shlomi.golemland.game.GameContainers.GameView" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/GameContainers/GameView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="256" width="299" x="1606" y="530"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="27" language="java" name="com.shlomi.golemland.Initialization.Settings.InventoryStatus" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Settings.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="225" x="2267" y="3306"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="28" language="java" name="com.shlomi.golemland.game.Core.Inventory" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Inventory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="216" width="268" x="289" y="1362"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="29" language="java" name="com.shlomi.golemland.game.Core.Constants.ITileChars" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Constants/ITileChars.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="296" width="291" x="1246" y="2790"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="30" language="java" name="com.shlomi.golemland.game.Core.Textures" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/game/Core/Textures.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="336" width="223" x="1808" y="-126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="31" language="java" name="com.shlomi.golemland.Initialization.Settings.SoundSettings" 
+    project="Golemland_v0.8.5" file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Settings.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="305" x="506" y="3306"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="32" language="java" name="com.shlomi.golemland.Initialization.Settings" project="Golemland_v0.8.5" 
+    file="/Golemland_v0.8.5/src/com/shlomi/golemland/Initialization/Settings.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="248" x="958" y="2790"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="33">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="34" name="soundSystem"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="37">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="38" name="rightTile"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="41" name="onThis"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="44" name="monsterArray"/>      
+      <multiplicity id="45" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <bendpoint x="2191" y="826"/>    
+    <bendpoint x="2191" y="1362"/>    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="47" name="player"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="49">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <association id="50">    
+    <bendpoint x="1430" y="1778"/>    
+    <bendpoint x="1535" y="2254"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="51" name="cakeArray"/>      
+      <multiplicity id="52" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <bendpoint x="1909" y="1362"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="54" name="player"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <bendpoint x="1493" y="1362"/>    
+    <bendpoint x="1493" y="1778"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="57" name="leftTile"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <bendpoint x="1472" y="1362"/>    
+    <bendpoint x="1472" y="1778"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="60" name="onThisTile"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <bendpoint x="1535" y="1362"/>    
+    <bendpoint x="1535" y="1778"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="63" name="belowTile"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="66" name="slots"/>      
+      <multiplicity id="67" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="68">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <nesting id="69">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <association id="70">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="71" name="inventory"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <bendpoint x="657" y="530"/>    
+    <bendpoint x="657" y="826"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="74" name="inventory"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <bendpoint x="1451" y="1362"/>    
+    <bendpoint x="1451" y="1778"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="77" name="upTile"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="79">    
+    <bendpoint x="988" y="1362"/>    
+    <bendpoint x="988" y="1778"/>    
+    <bendpoint x="988" y="2254"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <realization id="80">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <generalization id="81">    
+    <bendpoint x="1930" y="1362"/>    
+    <bendpoint x="1869" y="1778"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="82">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="83">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="84" name="map"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="86">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="87" name="belowTile"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="90" name="gameView"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="92">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="93" name="monsterTile"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="96" name="effect"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="98">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="19"/>  
+  </nesting>  
+  <association id="99">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="100" name="aboveTile"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="102">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="103">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="104" name="ss"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="106">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="107" name="map"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="109">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="27"/>  
+  </nesting>  
+  <nesting id="110">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="31"/>  
+  </nesting>  
+  <generalization id="111">    
+    <bendpoint x="1951" y="1362"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <realization id="112">    
+    <bendpoint x="2212" y="530"/>    
+    <bendpoint x="2212" y="826"/>    
+    <bendpoint x="2212" y="1362"/>    
+    <bendpoint x="2212" y="1778"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="113">    
+    <bendpoint x="1009" y="1778"/>    
+    <bendpoint x="1009" y="2254"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <realization id="114">    
+    <bendpoint x="1030" y="2254"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="115">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="116" name="game"/>      
+      <multiplicity id="117" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="118">    
+    <bendpoint x="1514" y="1362"/>    
+    <bendpoint x="1514" y="1778"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="119" name="rightTile"/>      
+      <multiplicity id="120" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="121">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="24"/>  
+  </nesting>  
+  <realization id="122">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <realization id="123">    
+    <bendpoint x="967" y="530"/>    
+    <bendpoint x="967" y="826"/>    
+    <bendpoint x="967" y="1362"/>    
+    <bendpoint x="967" y="1778"/>    
+    <bendpoint x="967" y="2254"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <realization id="124">    
+    <bendpoint x="1173" y="2254"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <association id="125">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="126" name="tntOnMap"/>      
+      <multiplicity id="127" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="128">    
+    <bendpoint x="2170" y="1362"/>    
+    <bendpoint x="2191" y="1778"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <nesting id="129">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <realization id="130">    
+    <bendpoint x="298" y="1778"/>    
+    <bendpoint x="298" y="2254"/>    
+    <bendpoint x="298" y="2790"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="131">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="132" name="leftTile"/>      
+      <multiplicity id="133" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="134">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="135" name="player"/>      
+      <multiplicity id="136" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="137">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <realization id="138">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="139">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <nesting id="140">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="16"/>  
+  </nesting>  
+  <generalization id="141">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <generalization id="142">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="143">    
+    <bendpoint x="1051" y="1778"/>    
+    <bendpoint x="1051" y="2254"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

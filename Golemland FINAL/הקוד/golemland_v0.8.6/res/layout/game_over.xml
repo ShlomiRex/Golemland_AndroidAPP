@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_over"
+    tools:context=".MainMenuActivity" >
+
+    <FrameLayout
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:layout_centerHorizontal="true"
+    	android:layout_gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+     	<Button
+	        android:id="@+id/btn_Game_Over_Ok"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@android:color/white"
+	        android:textColor="@android:color/black"
+	        android:padding="10dp"
+	        android:textSize="20dp"
+	        android:text="Okey, go back :(" 
+	        android:onClick="onClickOk"/>
+
+    </LinearLayout>
+
+</FrameLayout>
+</RelativeLayout>

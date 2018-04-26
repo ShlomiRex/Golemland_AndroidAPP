@@ -1,0 +1,8 @@
+com.shlomi.golemland
+com.shlomi.golemland.Initialization
+com.shlomi.golemland.Initialization.Activities
+com.shlomi.golemland.game.Core
+com.shlomi.golemland.game.Core.Constants
+com.shlomi.golemland.game.Core.Entitys
+com.shlomi.golemland.game.Core.Mobs
+com.shlomi.golemland.game.GameContainers

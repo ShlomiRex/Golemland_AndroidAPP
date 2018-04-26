@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/main_back2"
+    tools:context=".MainMenuActivity" >
+
+    <Button
+        android:id="@+id/btn_levels"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffad85"
+        android:textSize="20dp"
+        android:text="Levels" 
+        android:onClick="onClickLevels"/>
+    
+    <Button
+        android:id="@+id/btn_credits"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffad85"
+        android:textSize="20dp"
+        android:text="Credits" 
+        android:onClick="onClickCredits"/>
+    
+    <ImageView 
+        android:contentDescription="Big logo in main menu"
+        android:scaleType="fitCenter"
+        android:id="@+id/logoImage"
+        android:src="@raw/main_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/highScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_credits"
+        android:layout_marginTop="53dp"
+        android:background="@android:color/black"
+        android:ems="10"
+        android:text="Most cakes eaten:"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/highScoreTextScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/highScoreText"
+        android:layout_alignBottom="@+id/highScoreText"
+        android:layout_toRightOf="@+id/highScoreText"
+        android:background="@android:color/black"
+        android:ems="10"
+        android:text="30"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+</RelativeLayout>
